@@ -1,0 +1,208 @@
+@import url(./normalize.css);
+@import url(./vars.css);
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,
+body {
+    min-height: 100vh;
+    font-family: var(--main-font-family);
+    background: #E5E5E5;
+    font-size: var(--font-size-main);
+    color: #2B4F67;
+}
+
+.container-flex {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.section_account, .section_profile {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color:#1C1C1C;
+    font-size: 24px;
+    font-weight: 500;
+    }
+
+.name, .location, .location_profile, .zip_code {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    padding: 26px;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.form__label {
+    margin-bottom: 7px;
+    font-size: 0.85em;
+}
+
+.form__input,
+.form__select,
+.form__gender {
+    margin-bottom: 28px;
+    border-radius: 8px;
+}
+
+.form__input_name, .form__select {
+    border: 1px solid #E4E4E4;
+    margin-bottom: 7px;
+    border-radius: 6px;
+    width: 245px;
+    min-height: 38px;
+} 
+
+.form__input_mail {
+    border: 1px solid #E4E4E4;
+    margin-bottom: 7px;
+    border-radius: 6px;
+    width: 500px;
+    min-height: 38px;
+}
+
+.gender__item label input {
+    opacity: 0;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #969696;
+}
+
+.form__input,
+.form__select {
+    padding: 6px 8px;
+    border: 1px solid #E4E4E4;
+    font-size: 0.95em;
+}
+
+.gender__item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.gender__item label>span {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #E4E4E4;
+    border-radius: 50%;
+    left: -17px;
+    top: 5px;
+    }
+
+
+.gender__item label>span::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 0px 6px #007BFF inset;
+    opacity: 0;
+}
+
+.button {
+    width: 500px;
+    height: 38px;
+    background-color: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    padding: 6px 221px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 22px;
+}
+
+
+p {
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 20px;
+}
+
+.terms {
+    color: #007BFF;
+    font-style: bold;
+}
+
+.gender__item label input:checked ~ span::after {
+    opacity: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.photo {
+    display: flex;
+}
+
+.form__input_dwnl {
+    max-width: 138px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid #E4E4E4;
+    margin: 24px 20px 10px;
+}
+    
+.icon {
+    width: 30px;
+    height: 30px;
+    margin: 24px 0 0 -10px ;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+.button_profile {
+    width: 150px;
+    height: 38px;
+    background-color: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 98px;
+    
+}
+
+
+
+
+
