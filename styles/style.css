@@ -151,6 +151,8 @@ p {
     margin-bottom: 20px;
 }
 
+
+
 .terms {
     color: #007BFF;
     font-style: bold;
@@ -177,17 +179,20 @@ hr {
     height: 30px;
     border-radius: 6px;
     border: 1px solid #E4E4E4;
-    margin: 24px 20px 10px;
+    margin: 24px 0px 10px;
 }
     
-.icon {
+.icon_trash {
     width: 30px;
     height: 30px;
-    margin: 24px 0 0 -10px ;
+    margin: 24px 0 0 10px ;
 }
 
 img {
-    margin-bottom: 20px;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 9px;
+    margin-right: 20px;
 }
 
 .button_profile {
@@ -199,8 +204,27 @@ img {
     color: #fff;
     margin-top: 20px;
     margin-bottom: 98px;
-    
 }
+
+.focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 1px solid #007BFF; 
+}
+
+.icon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 
 
 
