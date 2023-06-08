@@ -180,6 +180,10 @@ hr {
     border-radius: 6px;
     border: 1px solid #E4E4E4;
     margin: 24px 0px 10px;
+    background-image: url(../assets/photo_icon.png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+    margin-right: 20px;
 }
     
 .icon_trash {
@@ -217,13 +221,7 @@ img {
     border: 1px solid #007BFF; 
 }
 
-.icon {
-    position: relative;
-    width: 16px;
-    height: 16px;
-    margin-top: 20px;
-    margin-left: 20px;
-}
+
 
 
 
